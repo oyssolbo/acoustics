@@ -6,8 +6,8 @@
  * 
  * Initialized to -1 such that it's easy to check if the variables are incorrect
  */
-float32_t TRILATERATION::max_hydrophone_distance = -1;
-float32_t TRILATERATION::max_time_diff = -1;
+volatile float32_t TRILATERATION::max_hydrophone_distance = -1;
+volatile float32_t TRILATERATION::max_time_diff = -1;
 
 
 /**
